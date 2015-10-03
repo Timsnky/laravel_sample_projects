@@ -1,0 +1,19 @@
+<?php echo $message; ?>
+
+
+<ol>
+
+	<?php foreach($users as $user): ?>
+		<li>
+			<ul>
+				<li>Name: <?php echo $user->name; ?></li>
+				<li>Phone: <?php echo $user->phone; ?></li>
+				<li>Email: <?php echo $user->email; ?></li>
+				<li>Age: <?php echo $user->age; ?></li>
+			</ul>
+
+		</li>
+
+	<?php endforeach; ?>
+
+</ol>
