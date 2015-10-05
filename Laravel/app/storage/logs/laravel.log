@@ -764,3 +764,7 @@ Stack trace:
 #11 /home/vagrant/Code/Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(641): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
 #12 /home/vagrant/Code/Laravel/public/index.php(49): Illuminate\Foundation\Application->run()
 #13 {main} [] []
+[2015-10-05 04:57:00] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'display' (T_STRING)' in /home/vagrant/Code/Laravel/app/controllers/HomeController.php:41
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []

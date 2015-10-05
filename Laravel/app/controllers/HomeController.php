@@ -20,19 +20,14 @@ class HomeController extends BaseController{
 
 
 		$input = Input::all();
-
 		$user = new User;
-
 		$user->name = $input['name'];
 		$user->phone = $input['phone'];
 		$user->email = $input['email'];
 		$user->age = $input['age'];
-
-
 		$user->save();
 
-
-
+		return Redirect::to('/');
 	}
 
 	public function display()
